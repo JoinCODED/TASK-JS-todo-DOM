@@ -23,3 +23,7 @@ function getFilteredDone() {
 function getNewTaskText() {
   return document.getElementById("new-task").value;
 }
+
+function getNewCategoryText() {
+  return document.getElementById("new-category").value;
+}

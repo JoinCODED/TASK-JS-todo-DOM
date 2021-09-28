@@ -29,6 +29,12 @@ function addTask() {
   alert(`Category: ${selectedCategory} | Task: ${taskTitle}`);
 }
 
+function addCategory() {
+  const newCategory = getNewCategoryText();
+  // continue the code here
+  alert(`New category was added: ${newCategory}`);
+}
+
 function filterTasks() {
   const selectedCategory = getSelectedCategoryById(CATEGORY_FILTER);
   const done = getFilteredDone();
