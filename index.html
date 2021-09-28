@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1>Select your category </h1>
+        <!-- KEEP THE SELECT EMPTY. IT WILL BE FILLED BY JS  -->
+        <select id="categories-list" title="All">
+        </select>
+
+        <input type="text" name="new-task" id="new-task" placeholder="* Add a new task">
+    </div>
+
+    <!-- FILTERING DIV -->
+    <div>
+        <h1>filter by category</h1>
+        <!-- KEEP THE SELECT EMPTY. IT WILL BE FILLED BY JS  -->
+        <select id="categories-list-filter" title="All">
+        </select>
+
+
+        <!-- DONE for filtering thing -->
+        <div>
+            <input type="checkbox" name="done" id="done">
+            <label for="done">Filter by done</label>
+        </div>
+    </div>
+    <hr>
+
+    <!-- KEEP THE DIV EMPTY. IT WILL BE FILLED BY JS  -->
+    <div id="tasks-list"></div>
+
+
+</body>
+
+<script src="./components/categoryItem.js"></script>
+<script src="./components/taskItem.js"></script>
+
+<script src="./engine.js"></script>
+<script src="./index.js"></script>
+
+</html>
