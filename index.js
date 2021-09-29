@@ -14,7 +14,7 @@ tasks = [
 categories = ["Movies", "Groceries"];
 // SAMPLE
 renderCategories(categories, CATEGORY_SELECTOR);
-renderCategories(["Movies", "Groceries"], CATEGORY_FILTER);
+renderCategories(categories, CATEGORY_FILTER);
 renderTasks(tasks, "tasks-list");
 
 function taskChecked(taskId, checked) {
