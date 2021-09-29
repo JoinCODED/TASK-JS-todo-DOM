@@ -11,7 +11,7 @@ tasks = [
   { id: 1, title: "Toy Story 4", category: "Movies", done: false },
 ];
 
-categories = ["Movies", "Grociries"];
+categories = ["Movies", "Groceries"];
 // SAMPLE
 renderCategories(categories, CATEGORY_SELECTOR);
 renderCategories(["Movies", "Groceries"], CATEGORY_FILTER);
