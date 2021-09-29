@@ -1,3 +1,4 @@
+// You do not need to change the constants
 const CATEGORY_SELECTOR = "categories-list";
 const CATEGORY_FILTER = "categories-list-filter";
 
