@@ -1,7 +1,6 @@
-# TODO Website
+# 📝 TODO Website (DOM)
 
-Hello and welcome to your MINI MINI project 🔥
-In this project you will be creating a todo website.
+In this project you will be creating a todo website with a starter DOM file.
 
 ## Instructions
 
@@ -31,6 +30,15 @@ _Note: You have to be creative and unique with your styling_
 
 - Use `onclick` when needed
 - Some functions will be reused, so think carefully
+
+### ⁉️ Questions you need to answer before you get started
+
+- What does the the `select` tag do?
+- What does `option` tag do? Where can it be found?
+- How is `engine.js` reading from `index.js`, `categoryItem.js`, and `taskItem.js`
+- What does components folder contains?
+- What does `engine.js` do?
+- Try all functions inside the `engine.js`
 
 ## PART 1: Add a Task
 
