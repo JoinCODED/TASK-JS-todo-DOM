@@ -69,13 +69,15 @@ categories = ["Movies", "Grociries"];
 
 ## PART 3: Task checked
 
-1. View the `filterTasks() ` function and test it
+1. View the `taskChecked() ` function and test it
 2. Make sure that it updates the original `tasks` list
+3. And render `tasks` to the page
 
 ## PART 4: Filter by category
 
 1. This function will display the tasks that have the same category chosen by the dropdown menu
 2. Test `filterTasks()` to see what it can give you, then use it in your advantage
+3. Do not forget to render it on the page
 
 ## PART 5: Filter by task done
 
